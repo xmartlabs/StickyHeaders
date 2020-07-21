@@ -5,10 +5,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+
 import org.zakariya.stickyheaders.SectioningAdapter;
 import org.zakariya.stickyheadersapp.R;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -314,5 +317,4 @@ public class MultiTypeDemoAdapter extends SectioningAdapter {
         }
 
     }
-
 }
